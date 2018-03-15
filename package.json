@@ -40,7 +40,7 @@
   "devDependencies": {
     "@types/chai": "^4.0.10",
     "@types/chai-as-promised": "0.0.31",
-    "@types/ioredis": "0.0.26",
+    "@types/ioredis": "3.2.6",
     "@types/mocha": "^2.2.44",
     "@types/node": "7.0.19",
     "@types/simple-mock": "0.0.27",
