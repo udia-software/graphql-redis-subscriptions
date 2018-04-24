@@ -247,7 +247,7 @@ describe('RedisPubSub', () => {
 
   it('throws if you try to unsubscribe with an unknown id', () => {
     const pubSub = new RedisPubSub(mockOptions);
-    return expect(() => pubSub.unsubscribe(123))
+    expect(() => pubSub.unsubscribe(123))
       .to.throw('There is no subscription of id "123"');
   });
 

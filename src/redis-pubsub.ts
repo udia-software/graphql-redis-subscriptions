@@ -58,7 +58,7 @@ export class RedisPubSub implements PubSubEngine {
     this.currentSubscriptionId = 0;
   }
 
-  public publish(trigger: string, payload: any): boolean {
+  public publish(trigger: string, payload: any): boolean | any {
     // TODO PR graphql-subscriptions to use promises as return value
     return this.redisPublisher.publish(trigger, JSON.stringify(payload));
   }

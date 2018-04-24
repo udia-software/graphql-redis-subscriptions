@@ -5,11 +5,9 @@ node_js:
   - "6"
 
 cache:
+  yarn: true
   directories:
     - node_modules
-
-install:
-  - npm install
 
 services:
   - redis-server

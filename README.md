@@ -1,7 +1,9 @@
 # graphql-redis-subscriptions
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/davidyaha/graphql-redis-subscriptions.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/davidyaha/graphql-redis-subscriptions.svg?branch=master)](https://travis-ci.org/davidyaha/graphql-redis-subscriptions)
+[![Build Status](https://travis-ci.org/udia-software/graphql-redis-subscriptions.svg?branch=master)](https://travis-ci.org/udia-software/graphql-redis-subscriptions)
+[![dependencies Status](https://david-dm.org/udia-software/graphql-redis-subscriptions/status.svg)](https://david-dm.org/udia-software/graphql-redis-subscriptions)
+[![devDependencies Status](https://david-dm.org/udia-software/graphql-redis-subscriptions/dev-status.svg)](https://david-dm.org/udia-software/graphql-redis-subscriptions?type=dev)
+[![optionalDependencies Status](https://david-dm.org/udia-software/graphql-redis-subscriptions/optional-status.svg)](https://david-dm.org/udia-software/graphql-redis-subscriptions?type=optional)
 
 This package implements the PubSubEngine Interface from the [graphql-subscriptions](https://github.com/apollographql/graphql-subscriptions) package and also the new AsyncIterator interface. 
 It allows you to connect your subscriptions manger to a redis Pub Sub mechanism to support 
